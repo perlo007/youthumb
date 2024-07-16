@@ -35,13 +35,19 @@ const Index = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <header className="text-center mb-8">
-        <h1 className="text-3xl font-bold mb-2">
-          YouTube Thumbnail Downloader
-        </h1>
-        <p className="text-gray-600">
-          Download high-quality thumbnails from YouTube videos.
-        </p>
+      <header className="flex justify-between items-center mb-8">
+        <div className="text-left">
+          <img src="/path/to/logo.png" alt="Site Logo" className="h-8" />
+        </div>
+        <div className="text-center">
+          <h1 className="text-3xl font-bold mb-2">
+            YouTube Thumbnail Downloader
+          </h1>
+          <p className="text-gray-600">
+            Download high-quality thumbnails from YouTube videos.
+          </p>
+        </div>
+        <div></div>
       </header>
       <div className="text-center">
         <input
@@ -77,7 +83,7 @@ const Index = () => {
         </div>
       )}
 
-      <section className="mt-12">
+      <section className="mt-12 text-center">
         <h2 className="text-2xl font-bold mb-4">YouTube Thumbnail Downloader</h2>
         <p>▷ Save YT Video Thumbnails</p>
         <p>
@@ -122,9 +128,11 @@ const Index = () => {
 
         <p className="text-xl font-semibold mt-6">youtube video thumbnail download</p>
       </section>
+      <footer className="text-center mt-12">
+        <p>Copyright 2024</p>
+      </footer>
     </div>
   );
 };
 
 export default Index;
-
