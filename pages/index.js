@@ -82,8 +82,8 @@ const Index = () => {
           </div>
         </div>
       )}
-
-      <section className="mt-12 text-center">
+      <div className="text-center"></div>
+       <section className="mt-12 text-center">
         <h2 className="text-2xl font-bold mb-4">YouTube Thumbnail Downloader</h2>
         <p>▷ Save YT Video Thumbnails</p>
         <p>
