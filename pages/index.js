@@ -39,7 +39,7 @@ const Index = () => {
         <div className="text-left">
           <img src="/path/to/logo.png" alt="Site Logo" className="h-8" />
         </div>
-        <div className="text-center">
+        <div className="flex-1 text-center">
           <h1 className="text-3xl font-bold mb-2">
             YouTube Thumbnail Downloader
           </h1>
@@ -66,10 +66,10 @@ const Index = () => {
       </div>
       {thumbnailOptions.length > 0 && (
         <div className="mt-8">
-          <h2 className="text-xl font-semibold mb-4">Thumbnail Options</h2>
+          <h2 className="text-xl font-semibold mb-4 text-center">Thumbnail Options</h2>
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {thumbnailOptions.map((option, index) => (
-              <div key={index} className="thumbnail-option">
+              <div key={index} className="thumbnail-option text-center">
                 <img src={option.url} alt={`Thumbnail ${index + 1}`} />
                 <button
                   className="btn-blue mt-2"
@@ -82,8 +82,8 @@ const Index = () => {
           </div>
         </div>
       )}
-      <div className="text-center"></div>
-       <section className="mt-12 text-center">
+
+      <section className="mt-12 text-center">
         <h2 className="text-2xl font-bold mb-4">YouTube Thumbnail Downloader</h2>
         <p>▷ Save YT Video Thumbnails</p>
         <p>
