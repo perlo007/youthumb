@@ -122,6 +122,9 @@ const Index = () => {
 
         <p className="text-xl font-semibold mt-6">youtube video thumbnail download</p>
       </section>
+      <footer className="text-center mt-12">
+        <p>Copyright 2024</p>
+      </footer>
     </div>
   );
 };
